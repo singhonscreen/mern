@@ -19067,7 +19067,7 @@ for(var i =0; i<d3.length; i++){
     
 // }
 // getDocument();
-app.get("/asb", async (req, res) => {
+app.get("/alldata", async (req, res) => {
     try {
         // const sector = req.params.sector1;
         const read = await Datalist.find()
